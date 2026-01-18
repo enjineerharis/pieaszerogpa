@@ -4,7 +4,7 @@ const courses = [
     { name: "Elementary Mathematics", credits: 3 },
     { name: "Departmental Course", credits: 3 },
     { name: "Introduction to Nuclear Science & Technology", credits: 3 },
-    { name: "Computer Fundamentals", credits: 4 }
+    { name: "Computing Fundamentals", credits: 4 }
 ];
 
 const gradePoints = {
