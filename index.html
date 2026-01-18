@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PIAS Zero Semester GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>PIAS Zero Semester GPA Calculator</h1>
+    <p class="subtitle">Choose grades or marks to calculate your expected GPA</p>
+
+    <div class="mode-selector">
+        <label>
+            <input type="radio" name="mode" value="grade" checked>
+            Select Grades
+        </label>
+        <label>
+            <input type="radio" name="mode" value="marks">
+            Select Marks
+        </label>
+    </div>
+
+    <div id="courses"></div>
+
+    <button onclick="calculateGPA()">Calculate GPA</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
